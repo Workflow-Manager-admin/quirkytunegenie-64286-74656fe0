@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import { SpotifyAuthProvider, useSpotifyAuth } from './SpotifyAuth';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { SpotifyLoginButton, SpotifyAuthCallbackRoute } from './AuthIntegrationUI';
 
 // ==== COLOR THEME: ====
 const COLORS = {
@@ -84,8 +85,6 @@ async function fetchSpotifyPlaylist(genome, setStatus, setPlaylist) {
     setPlaylist([]);
   }
 }
-
-import { SpotifyLoginButton } from './AuthIntegrationUI';
 
 // ==== MAIN CONTAINER ====
 function QuirkyTuneGenieContainer() {
@@ -487,9 +486,7 @@ function PlaylistView({ tracks, accent }) {
 }
 
 
-import { SpotifyAuthCallbackRoute } from './AuthIntegrationUI';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+ 
 // PUBLIC_INTERFACE
 function App() {
   /**
