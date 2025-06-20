@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import { SpotifyAuthProvider, useSpotifyAuth } from './SpotifyAuth';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // ==== COLOR THEME: ====
 const COLORS = {
@@ -82,6 +84,8 @@ async function fetchSpotifyPlaylist(genome, setStatus, setPlaylist) {
     setPlaylist([]);
   }
 }
+
+import { SpotifyLoginButton } from './AuthIntegrationUI';
 
 // ==== MAIN CONTAINER ====
 function QuirkyTuneGenieContainer() {
@@ -483,12 +487,44 @@ function PlaylistView({ tracks, accent }) {
 }
 
 
+import { SpotifyAuthCallbackRoute } from './AuthIntegrationUI';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 // PUBLIC_INTERFACE
 function App() {
   /**
    * The root App of QuirkyTuneGenie.
+   * Provides Spotify authentication and uses routing for OAuth callback.
    */
-  return <QuirkyTuneGenieContainer />;
+  return (
+    <SpotifyAuthProvider>
+      <Router>
+        <Routes>
+          <Route
+            path="/callback"
+            element={<SpotifyAuthCallbackRoute />}
+          />
+          <Route
+            path="/*"
+            element={<QuirkyTuneGenieMain />}
+          />
+        </Routes>
+      </Router>
+    </SpotifyAuthProvider>
+  );
+}
+
+// Replaces QuirkyTuneGenieContainer for main UI (to allow login UI on all pages)
+function QuirkyTuneGenieMain() {
+  // Render SpotifyLoginButton at top, then main app
+  return (
+    <>
+      <div style={{ maxWidth: 900, margin: "0 auto", paddingTop: 18 }}>
+        <SpotifyLoginButton />
+      </div>
+      <QuirkyTuneGenieContainer />
+    </>
+  );
 }
 
 export default App;

@@ -7,29 +7,346 @@
 <i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:3000/
 <i> [webpack-dev-server] Content not from webpack is served from './public' directory
 Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
-asset bundle.js 1.39 MiB [emitted] (name: main)
+asset bundle.js 1.41 MiB [emitted] (name: main)
 asset index.html 1.98 KiB [emitted]
 runtime modules 27.5 KiB 14 modules
 modules by path ./node_modules/ 1.24 MiB 31 modules
-modules by path ./src/ 10.3 KiB
+modules by path ./src/ 30.2 KiB
   modules by path ./src/*.css 7.49 KiB 4 modules
-  modules by path ./src/*.js 2.76 KiB
+  modules by path ./src/*.js 22.7 KiB
     ./src/index.js 530 bytes [built] [code generated]
-    ./src/App.js 2.25 KiB [built] [code generated]
+    ./src/App.js 22.2 KiB [built] [code generated]
 modules by path ./.ve/ 15.1 KiB
   modules by path ./.ve/*.js 10.6 KiB 2 modules
   modules by path ./.ve/*.css 2.93 KiB
     ./.ve/EditorOverlay.css 2.25 KiB [built] [code generated]
     ./node_modules/css-loader/dist/cjs.js!./.ve/EditorOverlay.css 697 bytes [built] [code generated]
   ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 1245 ms
+webpack 5.99.9 compiled successfully in 1343 ms
 assets by status 1.98 KiB [cached] 1 asset
-assets by path *.js 1.44 MiB
-  asset bundle.js 1.41 MiB [emitted] (name: main)
-  asset main.38af9e89fae8c6b1eae5.hot-update.js 28.4 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.38af9e89fae8c6b1eae5.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.44 MiB = bundle.js 1.41 MiB main.38af9e89fae8c6b1eae5.hot-update.js 28.4 KiB
+assets by path *.js 1.46 MiB
+  asset bundle.js 1.42 MiB [emitted] (name: main)
+  asset main.510d081f68d4042ef492.hot-update.js 36.7 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.510d081f68d4042ef492.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.46 MiB = bundle.js 1.42 MiB main.510d081f68d4042ef492.hot-update.js 36.7 KiB
 cached modules 1.26 MiB [cached] 41 modules
 runtime modules 27.5 KiB 14 modules
-./src/App.js 22.2 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 210 ms
+javascript modules 29 KiB
+  ./src/App.js 22.4 KiB [built] [code generated]
+  ./src/SpotifyAuth.js 6.68 KiB [built] [code generated]
+
+ERROR in ./src/App.js 4:0-100
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/src'
+resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/src'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/package.json (relative path: ./node_modules/react-router-dom)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom.jsx doesn't exist
+        /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom doesn't exist
+      /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 1 error in 247 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by path *.js 1.42 MiB
+  asset bundle.js 1.42 MiB [emitted] (name: main)
+  asset main.6fdfb5c76cd51fae97a3.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset index.html 1.98 KiB [emitted]
+asset main.6fdfb5c76cd51fae97a3.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.42 MiB = bundle.js 1.42 MiB main.6fdfb5c76cd51fae97a3.hot-update.js 854 bytes
+cached modules 1.25 MiB [cached] 37 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 41.8 KiB
+  modules by path ./src/*.js 29.6 KiB
+    ./src/index.js 530 bytes [built]
+    ./src/App.js 22.4 KiB [built]
+    ./src/SpotifyAuth.js 6.68 KiB [built]
+  modules by path ./.ve/ 12.2 KiB
+    ./.ve/EditorRootWrapper.js 2.68 KiB [built]
+    ./.ve/EditorOverlay.jsx 1.58 KiB [built]
+    ./.ve/SidePanel.js 7.93 KiB [built]
+
+ERROR in ./src/App.js 4:0-100
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/src'
+resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/src'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/package.json (relative path: ./node_modules/react-router-dom)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom.jsx doesn't exist
+        /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom doesn't exist
+      /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 1 error in 231 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.46 MiB
+  asset bundle.js 1.43 MiB [emitted] (name: main)
+  asset main.0b6bb4b01255e178328f.hot-update.js 34.1 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.0b6bb4b01255e178328f.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.46 MiB = bundle.js 1.43 MiB main.0b6bb4b01255e178328f.hot-update.js 34.1 KiB
+cached modules 1.27 MiB [cached] 42 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 25.5 KiB
+  ./src/App.js 22.4 KiB [built] [code generated]
+  ./src/AuthIntegrationUI.js 3.1 KiB [built] [code generated]
+
+ERROR in ./src/App.js 4:0-100
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/src'
+resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/src'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/package.json (relative path: ./node_modules/react-router-dom)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom.jsx doesn't exist
+        /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom doesn't exist
+      /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/AuthIntegrationUI.js 3:0-60
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/src'
+resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/src'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/package.json (relative path: ./node_modules/react-router-dom)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom.jsx doesn't exist
+        /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/react-router-dom doesn't exist
+      /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/App.js 88:0-57
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 2 errors in 154 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.39 MiB
+  asset bundle.js 1.38 MiB [emitted] (name: main)
+  asset main.0043caeb5c5478afec22.hot-update.js 6.58 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.0043caeb5c5478afec22.hot-update.json 149 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.39 MiB = bundle.js 1.38 MiB main.0043caeb5c5478afec22.hot-update.js 6.58 KiB
+cached modules 1.26 MiB [cached] 38 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 569 bytes
+  ./src/index.js 530 bytes [code generated]
+  ./src/App.js 39 bytes [built] [code generated] [1 error]
+
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/src/App.js: Identifier 'SpotifyAuthProvider' has already been declared. (490:9)
+
+  488 |
+  489 |
+> 490 | import { SpotifyAuthProvider } from './SpotifyAuth';
+      |          ^
+  491 | import { SpotifyAuthCallbackRoute } from './AuthIntegrationUI';
+  492 | import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+  493 |
+    at constructor (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:363:19)
+    at JSXParserMixin.raise (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:6609:19)
+    at ScopeHandler.checkRedeclarationInScope (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:1626:19)
+    at ScopeHandler.declareName (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:1592:12)
+    at JSXParserMixin.declareNameFromIdentifier (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:7538:16)
+    at JSXParserMixin.checkIdentifier (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:7534:12)
+    at JSXParserMixin.checkLVal (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:7475:12)
+    at JSXParserMixin.finishImportSpecifier (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14184:10)
+    at JSXParserMixin.parseImportSpecifier (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14341:17)
+    at JSXParserMixin.parseNamedImportSpecifiers (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14320:36)
+    at JSXParserMixin.parseImportSpecifiersAndAfter (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14160:37)
+    at JSXParserMixin.parseImport (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14153:17)
+    at JSXParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:12795:27)
+    at JSXParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:12685:17)
+    at JSXParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:12662:17)
+    at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:13235:36)
+    at JSXParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:13228:10)
+    at JSXParserMixin.parseProgram (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:12541:10)
+    at JSXParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:12531:25)
+    at JSXParserMixin.parse (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14410:10)
+    at parse (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14444:38)
+    at parser (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/gensync/index.js:261:32)
+    at /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/gensync/index.js:223:11)
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 1 error in 45 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.38 MiB
+  asset bundle.js 1.38 MiB [emitted] (name: main)
+  asset main.92279beeefece56692c6.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset main.92279beeefece56692c6.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.38 MiB = bundle.js 1.38 MiB main.92279beeefece56692c6.hot-update.js 854 bytes
+cached modules 1.26 MiB [cached] 39 modules
+runtime modules 27.5 KiB 14 modules
+./src/App.js 39 bytes [built] [1 error]
+
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/src/App.js: Identifier 'Router' has already been declared. (491:26)
+
+  489 |
+  490 | import { SpotifyAuthCallbackRoute } from './AuthIntegrationUI';
+> 491 | import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+      |                           ^
+  492 |
+  493 | // PUBLIC_INTERFACE
+  494 | function App() {
+    at constructor (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:363:19)
+    at JSXParserMixin.raise (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:6609:19)
+    at ScopeHandler.checkRedeclarationInScope (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:1626:19)
+    at ScopeHandler.declareName (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:1592:12)
+    at JSXParserMixin.declareNameFromIdentifier (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:7538:16)
+    at JSXParserMixin.checkIdentifier (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:7534:12)
+    at JSXParserMixin.checkLVal (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:7475:12)
+    at JSXParserMixin.finishImportSpecifier (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14184:10)
+    at JSXParserMixin.parseImportSpecifier (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14341:17)
+    at JSXParserMixin.parseNamedImportSpecifiers (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14320:36)
+    at JSXParserMixin.parseImportSpecifiersAndAfter (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14160:37)
+    at JSXParserMixin.parseImport (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14153:17)
+    at JSXParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:12795:27)
+    at JSXParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:12685:17)
+    at JSXParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:12662:17)
+    at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:13235:36)
+    at JSXParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:13228:10)
+    at JSXParserMixin.parseProgram (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:12541:10)
+    at JSXParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:12531:25)
+    at JSXParserMixin.parse (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14410:10)
+    at parse (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14444:38)
+    at parser (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/gensync/index.js:261:32)
+    at /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/gensync/index.js:223:11)
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 1 error in 58 ms
+assets by status 1.38 MiB [cached] 2 assets
+cached modules 1.26 MiB (javascript) 27.5 KiB (runtime) [cached] 53 modules
+./src/App.js 39 bytes [built] [1 error]
+
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/src/App.js: Identifier 'Router' has already been declared. (491:26)
+
+  489 |
+  490 | import { SpotifyAuthCallbackRoute } from './AuthIntegrationUI';
+> 491 | import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+      |                           ^
+  492 |
+  493 | // PUBLIC_INTERFACE
+  494 | function App() {
+    at constructor (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:363:19)
+    at JSXParserMixin.raise (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:6609:19)
+    at ScopeHandler.checkRedeclarationInScope (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:1626:19)
+    at ScopeHandler.declareName (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:1592:12)
+    at JSXParserMixin.declareNameFromIdentifier (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:7538:16)
+    at JSXParserMixin.checkIdentifier (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:7534:12)
+    at JSXParserMixin.checkLVal (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:7475:12)
+    at JSXParserMixin.finishImportSpecifier (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14184:10)
+    at JSXParserMixin.parseImportSpecifier (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14341:17)
+    at JSXParserMixin.parseNamedImportSpecifiers (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14320:36)
+    at JSXParserMixin.parseImportSpecifiersAndAfter (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14160:37)
+    at JSXParserMixin.parseImport (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14153:17)
+    at JSXParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:12795:27)
+    at JSXParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:12685:17)
+    at JSXParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:12662:17)
+    at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:13235:36)
+    at JSXParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:13228:10)
+    at JSXParserMixin.parseProgram (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:12541:10)
+    at JSXParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:12531:25)
+    at JSXParserMixin.parse (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14410:10)
+    at parse (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/parser/lib/index.js:14444:38)
+    at parser (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/gensync/index.js:261:32)
+    at /home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/kavia/workspace/code-generation/quirkytunegenie-64286-74656fe0/quirkytunegenie_frontend/node_modules/gensync/index.js:223:11)
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 1 error in 39 ms
